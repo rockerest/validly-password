@@ -6,7 +6,7 @@
   "authors": [
     "rockerest <admin@rockerest.com>"
   ],
-  "description": "A plugin for Validly for testing passwords",
+  "description": "A plugin for testing passwords for Validly.js",
   "moduleType": [
     "amd"
   ],
