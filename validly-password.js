@@ -59,16 +59,16 @@ define(
                     test = /[A-Z]/;
                     break;
                 case "lower":
-                    test = /a-z/;
+                    test = /[a-z]/;
                     break;
                 case "number":
-                    test = /0-9/;
+                    test = /[0-9]/;
                     break;
                 case "special":
-                    test = /\W|_/;
+                    test = /[\W|_]/;
                     break;
                 default:
-                    test = /./;
+                    test = /[.]/;
                     break;
             }
 
