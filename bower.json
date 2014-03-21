@@ -1,0 +1,34 @@
+{
+  "name": "validly-password",
+  "main": "validly-password.js",
+  "version": "0.0.1-a",
+  "homepage": "https://github.com/rockerest/validly-password",
+  "authors": [
+    "rockerest <admin@rockerest.com>"
+  ],
+  "description": "A plugin for Validly for testing passwords",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "validly",
+    "password",
+    "validation",
+    "strength"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests",
+    "vendor"
+  ],
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "require": "requirejs#~2.1.11"
+  }
+}
