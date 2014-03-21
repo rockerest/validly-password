@@ -26,9 +26,14 @@
     "tests",
     "vendor"
   ],
+  "dependencies": {
+    "validly": "*"
+  },
   "devDependencies": {
     "mocha": "~1.18.2",
     "chai": "~1.9.1",
-    "require": "requirejs#~2.1.11"
+    "require": "requirejs#~2.1.11",
+    "sinon": "~1.9.0",
+    "sinon-chai": "~2.5.0"
   }
 }
