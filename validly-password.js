@@ -10,7 +10,7 @@ define(
             this.strength = function( string ){
                 // dummy password strength calculation
                 return 1;
-            }
+            };
         };
 
         /****** Add functionality to the object ******/
