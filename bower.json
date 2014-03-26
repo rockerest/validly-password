@@ -1,7 +1,7 @@
 {
   "name": "validly-password",
   "main": "validly-password.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/rockerest/validly-password",
   "authors": [
     "rockerest <admin@rockerest.com>"
