@@ -26,6 +26,10 @@ define(
             this.filters.push( filter );
         };
 
+        password.prototype.resetFilters = function(){
+            this.filters = [];
+        };
+
         password.prototype.meetsMinimumFilters = function( string, min ){
             return this.runFilters( string ) >= min;
         };
