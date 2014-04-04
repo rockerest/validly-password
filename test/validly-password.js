@@ -76,6 +76,20 @@ define(
                 });
             });
 
+            describe( "#resetFilters", function(){
+                it( "should empty the list of filters", function(){
+                    password.filters = [
+                        "thing",
+                        undefined,
+                        function(){ return true; }
+                    ];
+
+                    password.filters.length.should.equal( 3 );
+                    password.resetFilters();
+                    password.filters.length.should.equal( 0 );
+                });
+            });
+
             describe( "#meetsMinimumFilters", function(){
                 beforeEach( function(){
                     sinon.spy( password, "runFilters" );
